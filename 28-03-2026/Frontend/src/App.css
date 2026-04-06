@@ -1,0 +1,170 @@
+/* Reset some default styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f5f6fa;
+}
+
+/* Navigation bar */
+nav {
+  background-color: #2f3640;
+  padding: 12px 20px;
+  text-align: center;
+}
+
+/* Links */
+nav a {
+  color: #f5f6fa;
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+/* Hover effect */
+nav a:hover {
+  color: #00a8ff;
+}
+
+/* Divider */
+hr {
+  border: none;
+  height: 1px;
+  background-color: #dcdde1;
+  margin: 0;
+}
+
+/* Page container (optional for pages) */
+.container {
+  padding: 20px;
+}
+
+/* Center the form */
+.form-container {
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading */
+.form-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Input groups */
+.form-group {
+  margin-bottom: 15px;
+}
+
+/* Labels */
+.form-group label {
+  font-weight: 500;
+  display: block;
+  margin-bottom: 5px;
+}
+
+/* Inputs */
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  outline: none;
+  font-size: 14px;
+}
+
+/* Focus effect */
+.form-group input:focus {
+  border-color: #007bff;
+}
+
+/* Button */
+.btn {
+  width: 100%;
+  padding: 10px;
+  background-color: #2f3640;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+/* Hover */
+.btn:hover {
+  background-color: #00a8ff;
+}
+/* Container */
+.table-container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+/* Heading */
+.table-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Table styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+/* Table header */
+thead {
+  background-color: #2f3640;
+  color: white;
+}
+
+th, td {
+  padding: 12px;
+  text-align: center;
+}
+
+/* Rows */
+tbody tr {
+  border-bottom: 1px solid #ddd;
+}
+
+/* Hover effect */
+tbody tr:hover {
+  background-color: #f1f2f6;
+}
+
+/* Buttons */
+.table-btn {
+  padding: 6px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Update button */
+.update-btn {
+  background-color: #00a8ff;
+  color: white;
+}
+
+.update-btn:hover {
+  background-color: #0097e6;
+}
+
+/* Delete button */
+.delete-btn {
+  background-color: #e84118;
+  color: white;
+}
+
+.delete-btn:hover {
+  background-color: #c23616;
+}

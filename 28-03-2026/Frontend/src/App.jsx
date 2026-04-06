@@ -2,7 +2,7 @@ import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import TodoList from "./page/TodoList";
 import CreateTodo from "./page/CreateTodo";
 import EditTodo from "./page/EditTodo";
-
+import "./App.css";
 export default function App() {
   return (
     <BrowserRouter>

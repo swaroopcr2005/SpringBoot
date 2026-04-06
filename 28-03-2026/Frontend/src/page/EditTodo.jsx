@@ -32,33 +32,33 @@ function EditTodo() {
   };
 
   return (
-    <div>
+    <div className="form-container">
+      <h2>Edit Todo</h2>
+
       <form onSubmit={handleSubmit}>
-        <div>
-          <label>Title:</label>
-          <br />
+        <div className="form-group">
+          <label>Title</label>
           <input
             type="text"
             value={title}
             onChange={(e) => setTitle(e.target.value)}
+            required
           />
         </div>
 
-        <br />
-
-        <div>
-          <label>Description:</label>
-          <br />
+        <div className="form-group">
+          <label>Description</label>
           <input
             type="text"
             value={description}
             onChange={(e) => setDescription(e.target.value)}
+            required
           />
         </div>
 
-        <br />
-
-        <button type="submit">Update</button>
+        <button className="btn" type="submit">
+          Update
+        </button>
       </form>
     </div>
   );

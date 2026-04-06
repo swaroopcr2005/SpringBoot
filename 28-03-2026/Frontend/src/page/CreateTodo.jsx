@@ -19,37 +19,35 @@ export default function CreateTodo() {
     }
   };
 
-  return (
-    <div>
-      <h2>Create Todo Page</h2>
+ return (
+   <div className="form-container">
+     <h2>Create Todo</h2>
 
-      <form onSubmit={handleSubmit}>
-        <div>
-          <label>Title:</label>
-          <br />
-          <input
-            type="text"
-            value={title}
-            onChange={(e) => setTitle(e.target.value)}
-          />
-        </div>
+     <form onSubmit={handleSubmit}>
+       <div className="form-group">
+         <label>Title</label>
+         <input
+           type="text"
+           value={title}
+           onChange={(e) => setTitle(e.target.value)}
+           required
+         />
+       </div>
 
-        <br />
+       <div className="form-group">
+         <label>Description</label>
+         <input
+           type="text"
+           value={description}
+           onChange={(e) => setDescription(e.target.value)}
+           required
+         />
+       </div>
 
-        <div>
-          <label>Description:</label>
-          <br />
-          <input
-            type="text"
-            value={description}
-            onChange={(e) => setDescription(e.target.value)}
-          />
-        </div>
-
-        <br />
-
-        <button type="submit">Create</button>
-      </form>
-    </div>
-  );
+       <button className="btn" type="submit">
+         Create
+       </button>
+     </form>
+   </div>
+ );
 }
